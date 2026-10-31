@@ -4,6 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Terms of Use · Wallyn</title>
+<meta name="description" content="Wallyn is a budget planner for iPhone that shows what’s safe to spend today after bills and goals. Your data stays on your iPhone.">
+<meta property="og:title" content="Wallyn: Budget Planner">
+<meta property="og:description" content="Wallyn is a budget planner for iPhone that shows what’s safe to spend today after bills and goals. Your data stays on your iPhone.">
+<meta property="og:image" content="https://ruslanfsb.github.io/wallyn/icon-512.png">
+<link rel="icon" type="image/png" href="../favicon.png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
 <style>
 :root { --bg: #F4F5F2; --card: #FFFFFF; --text: #1C1F1D; --muted: #5F6A64; --tint: #3F7A5E; --line: #E2E6E1; }
 @media (prefers-color-scheme: dark) { :root { --bg: #121614; --card: #1B201D; --text: #EEF1EE; --muted: #A3ADA7; --tint: #8CC9A8; --line: #2A312D; } }
@@ -12,7 +18,9 @@ body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 -app
 header { background: linear-gradient(160deg, #2F5D47, #5E8C74); color: #fff; padding: 28px 16px 64px; }
 header a { color: #fff; text-decoration: none; font-weight: 700; }
 nav { max-width: 760px; margin: 0 auto; display: flex; gap: 18px; flex-wrap: wrap; align-items: center; }
-nav .brand { font-size: 20px; margin-right: auto; }
+nav .brand { font-size: 20px; margin-right: auto; display: flex; align-items: center; gap: 10px; }
+nav .brand img { width: 36px; height: 36px; border-radius: 9px; }
+.hero { width: 96px; height: 96px; border-radius: 22px; box-shadow: 0 6px 18px rgba(0,0,0,.15); margin-bottom: 14px; }
 nav a:not(.brand) { opacity: .85; font-size: 15px; }
 main { max-width: 760px; margin: -40px auto 48px; padding: 0 16px; }
 article { background: var(--card); border-radius: 22px; padding: 28px 24px; box-shadow: 0 8px 24px rgba(0,0,0,.06); }
@@ -28,7 +36,7 @@ footer { text-align: center; color: var(--muted); font-size: 14px; padding-botto
 </head>
 <body>
 <header><nav>
-<a class="brand" href="../">Wallyn</a>
+<a class="brand" href="../"><img src="../icon-512.png" alt="">Wallyn</a>
 <a href="../privacy/">Privacy</a>
 <a href="../terms/">Terms</a>
 <a href="../support/">Support</a>
